@@ -1,0 +1,37 @@
+{
+  "features": [
+    "GR",
+    "SP",
+    "AC",
+    "AC1",
+    "CAL",
+    "U",
+    "DEN",
+    "DEN1",
+    "CNL",
+    "CNL1",
+    "PE",
+    "RD",
+    "RS",
+    "log（RD）",
+    "log（RS）",
+    "m2r3",
+    "m2r6",
+    "m2r9",
+    "POR",
+    "SW",
+    "PERM",
+    "∆ Φ1",
+    "∆ Φ2",
+    "∆ Φ3"
+  ],
+  "num_features": 24,
+  "source_excel": "流体识别数据.xlsx",
+  "sheet_name": "Sheet1",
+  "split_reference": {
+    "train": "dataset/train.csv",
+    "val": "dataset/val.csv",
+    "test": "dataset/test.csv"
+  },
+  "note": "All-features dataset is generated from the original Excel Sheet1 using existing well-based train/val/test split. No derived feature columns are created."
+}

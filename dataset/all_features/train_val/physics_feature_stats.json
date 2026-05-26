@@ -1,0 +1,37 @@
+{
+  "gr_clean": 14.0505,
+  "gr_shale": 32.788,
+  "por_unit": "percent",
+  "cnl_unit": "percent",
+  "rho_matrix": 2.65,
+  "rho_fluid": 1.0,
+  "new_features": [
+    "RWA",
+    "VSH_GR",
+    "PHI_DENSITY",
+    "EXCAVATION_DIFF",
+    "INVASION_DIFF"
+  ],
+  "non_null_counts": {
+    "RWA": {
+      "train_non_null": 1331,
+      "test_non_null": 253
+    },
+    "VSH_GR": {
+      "train_non_null": 1331,
+      "test_non_null": 253
+    },
+    "PHI_DENSITY": {
+      "train_non_null": 1331,
+      "test_non_null": 253
+    },
+    "EXCAVATION_DIFF": {
+      "train_non_null": 1331,
+      "test_non_null": 253
+    },
+    "INVASION_DIFF": {
+      "train_non_null": 1331,
+      "test_non_null": 253
+    }
+  }
+}
